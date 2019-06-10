@@ -1,0 +1,67 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXGroup section */
+		EB6ABF1B22AE5F820022CFE4 = {
+			isa = PBXGroup;
+			children = (
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		EB6ABF1C22AE5F820022CFE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+			};
+			buildConfigurationList = EB6ABF1F22AE5F820022CFE4 /* Build configuration list for PBXProject "tpgl-tester" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB6ABF1B22AE5F820022CFE4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		EB6ABF2022AE5F820022CFE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		EB6ABF2122AE5F820022CFE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6ABF1F22AE5F820022CFE4 /* Build configuration list for PBXProject "tpgl-tester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6ABF2022AE5F820022CFE4 /* Debug */,
+				EB6ABF2122AE5F820022CFE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6ABF1C22AE5F820022CFE4 /* Project object */;
+}
