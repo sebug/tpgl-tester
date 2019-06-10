@@ -29,10 +29,13 @@ class tpgl_tester: XCTestCase {
     }
 
     func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let windows = application!.windows
-        XCTAssertEqual(2, windows.count)
+        // Since we do not link this to our main app, our big helper is
+        //print(application!.debugDescription)
+        let textFields = application!.descendants(matching: .textField)
+            .containing(NSPredicate(format: "placeholderValue CONTAINS 'Select a Stop'"))
+        XCTAssertEqual(1, textFields.count)
+        let firstTextField = textFields.firstMatch
+        firstTextField.tap()
     }
 
 }
