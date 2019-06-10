@@ -36,6 +36,10 @@ class tpgl_tester: XCTestCase {
         XCTAssertEqual(1, textFields.count)
         let firstTextField = textFields.firstMatch
         firstTextField.tap()
+        let screenshot = application!.windows.firstMatch.screenshot()
+        let sAttachment = XCTAttachment(screenshot: screenshot)
+        sAttachment.lifetime = .keepAlways
+        self.add(sAttachment)
     }
 
 }
